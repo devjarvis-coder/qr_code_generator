@@ -6,4 +6,4 @@ qr = qrcode.QRCode(version=1, error_correction=qrcode.constants.ERROR_CORRECT_H,
 qr.add_data('https://www.bigqueries.com/')
 qr.make(fit=True)
 img = qr.make_image(fill_color="red", back_color="blue")
-img.save("aman.png")
+img.save("customize.png")
